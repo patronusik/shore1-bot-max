@@ -9,9 +9,9 @@ subscribe_kb = InlineKeyboardMarkup(inline_keyboard=[
 
 # --- ГЛАВНОЕ МЕНЮ ---
 main_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text="🤸‍♀️ О художественной гимнастике", callback_data="about")],
+    [InlineKeyboardButton(text="🤸‍♀️ Об учреждении", callback_data="about")],
     [InlineKeyboardButton(text="📍 Адреса учреждения", callback_data="addresses")],
-    [InlineKeyboardButton(text="💳 Платные услуги", url="https://school-grace.astrobl.ru/deyatelnost/platnye-uslugi")],
+    [InlineKeyboardButton(text="💳 Платные услуги", url="https://olimpreserv1-30.ru/paid-service/")],
     [InlineKeyboardButton(text="❓ Часто задаваемые вопросы", callback_data="support_menu")],
     [InlineKeyboardButton(text="📞 Справочная информация", callback_data="contacts")],
     [InlineKeyboardButton(text="💬 Остались вопросы? Напишите нам", url="https://pos.gosuslugi.ru/landing/")],
